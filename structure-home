@@ -1,0 +1,96 @@
+//Structure Home page
+
+<!DOCTYPE html>
+<html>
+    
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home page</title>
+    <meta name="description" content="Kinundrum Home">
+    <link rel="stylesheet" href="main.css">
+</head>
+    
+<body>
+
+//global nav, sidebar
+<header>
+<nav>
+<a href="" title="link to Home page"><img src="home svg"></a>
+<a href="" title="link to Library"><img src="library svg"></a>
+<a href="" title="link to User Profile"><img src="user profile svg"></a>
+</nav>
+</header>
+
+//local nav, header
+<a href="#learningGoals" title="link to Learning Goals">Learning Goals</a>
+<a href="#caseStudies" title="link to Case Studies">Case Studies</a>
+<a href="#about" title="link to About the Project">About the Project</a>
+
+<main>
+<section>
+	<div class="hero">
+		<h1>Ready to solve some Kinundrums?</h1>
+		<button class="inverse">Let's get started</button>
+	</div>
+</section>
+
+<section id="learningGoals">
+	<div class="section">
+		<div class="sectionLeft">
+			<h2>Learning Goals</h2>
+			<p><strong>Let's face it.</strong><br>
+			Anatomy requires a lot of memorizing, but that's not all there is to it. You need to be able to apply your knowledge to real-life scenarios.</p>
+		</div>
+		<div class="sectionRight">
+			<img src="learning goals" alt="learning goals">
+		</div>
+	</div>
+</section>
+
+<section id="caseStudies">
+	<div class="section">
+		<div class="sectionLeft">
+			<h2>Case Studies</h2>
+			<p>The case studies are organized by level of difficulty. Select one of the available case studies to begin. You can unlock the next level by completing case studies.</p>
+
+			//image of badges 
+			<img src="" alt = "achievements">
+
+			<h3>Earn achievements</h3>
+			<p>Level up and earn badges along the way! To see how you can earn them, check out your <b>User Profile</b> on the main menu.</p>
+
+			<h3>Reset a case study</h3>
+			<p>Once you've completed a case study, you can choose to review the answers in the <strong>Library</strong>, or <strong>reset</strong> a case study by going through the entire case study again. Click on the case study icon to test your knowledge.<br>
+
+			And don't worry, your level progress won't be affected. In fact, you can earn the Keener badge for resetting cases!</p>
+		</div>
+		<div class="sectionRight">
+		// case study icons go here
+		</div>
+	</div>
+</section>
+
+<section id="about">
+	<div class="section">
+		<div class="sectionLeft">
+			<h2>About the Project</h2>
+			<h3>Kinundrum: a problem-based application for undergraduate kinesiology education</h3>
+			<p>Kinundrum is a collaborative endeavour created by Chelsea Canlas, Natividad Chen and Patricia Nguyen for their Masters Research Project in the UofT Biomedical Communications graduate program. The faculty supervisory committee includes Dr. Judi Laprade, Michael Corrin, Dr. Jodie Jenkinson, Dr. Shelley Wall, and Dr. Derek Ng.<br>
+			
+			Designed to address the need for an e-learning tool that engages undergraduate kinesiology students in active learning, Kinundrum guides students through lower limb biomechanics case studies at increasing levels of difficulty. Case studies present animated injury scenarios, after which students solve interactive problems accompanied by 3D models, animations, and illustrations of the affected anatomy.<br>
+			
+			At the intersection of art, science, education, and technology, Kinundrum combines problem-based learning pedagogy with multimedia design and web technology to create an engaging e-learning tool that can be accessed outside of the formal classroom.</p>
+		</div>
+		<div class="sectionRight">
+			// icons of team
+		</div>
+	</div>
+</section>
+</main>
+
+
+<footer>
+	<p>Copyright 2018</p>
+</footer>
+</body>
